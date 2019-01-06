@@ -9,7 +9,7 @@ import {
   SORT_AFTER
 } from './bitonic_sort_pot.js';
 
-import d3 from 'd3'
+import * as d3 from 'd3'
 
 const graphWidth = 640;
 const graphHeight = 480;
@@ -29,7 +29,7 @@ let svg = d3.select('#js-container')
   .attr('width', graphWidth)
   .attr('height', graphHeight);
 
-let scale = d3.scale.linear()
+let scale = d3.scaleLinear()
   .domain([0, 1])
   .range([0, graphHeight]);
 

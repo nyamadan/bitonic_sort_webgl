@@ -1,4 +1,4 @@
-import THREE from 'three.js'
+import THREE from 'three'
 import {BitonicSort} from './bitonic_sort_webgl.js'
 import {PassThru} from './pass_thru.js'
 import {genRandomArray} from './array_util.js'
